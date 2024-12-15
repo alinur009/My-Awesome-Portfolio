@@ -1,0 +1,280 @@
+@media only screen and (max-width: 1519px) {
+ 
+}
+@media only screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .body{
+        width: 375px;
+    }
+    .latest-work span {
+        display: none;
+    }
+    .nav-links    {
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        height: 50px;
+    }
+    .toggle{
+        opacity: 1;
+    }
+    .menu{
+        display: none;
+    }
+
+    .input[type="checkbox"]:checked ~ .menu{
+        display: block;
+    }
+
+
+    .header{
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+
+    }
+    .content h1{
+        width: 375px;
+        gap: 60px;
+        font-size: 48px;
+        font-weight: 500;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        left: -140px;
+        padding: 0 5px;
+        position: relative;
+    }
+
+    .content p{
+        width: 315px;
+        height: 81px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Epilogue;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 27px;
+        /* text-align: center; */
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        left: -90px;
+        position: relative;
+               
+    }
+    .image img {
+        width: 315px;
+        left: -90px;
+        position: relative;
+    }
+
+    .logos-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width:  100%;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        gap: 10px;
+        opacity: 0px;
+        position: relative;
+        left: -5px;
+
+
+    }
+
+    .logos-container{
+        width: 242.12px;
+        height: 354.83px;
+        padding: 60px 0px 60px 0px;
+        gap: 60px;
+        border: 2px 0px 2px 0px;
+        opacity: 0px;
+        border-width: 2px, 0px, 2px, 0px;
+    }
+    
+    .logos-container img{
+        width: 60px;
+        height: 40px;
+        top: 60px;
+        left: 178.36px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+    .skills-section{
+        display: flex;
+        flex-direction: column;
+        width:375px;
+        height: 1,534px;
+        gap: 10px;
+        opacity: 0px;
+
+    }
+
+    .skill{
+         width: 249.9px;
+         height: 1,234px;
+         gap: 125px;
+         opacity: 0px;
+
+    }
+    .skill img {
+        position: relative;
+        left: -55px;
+    }
+    .skill h3 {
+        position: relative;
+        left: -55px;
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .skill p {
+        width: 249px;
+        position: relative;
+        left: -65px;
+        font-family: Epilogue;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+
+
+    }
+
+    .latest-work{
+        width: 375px;
+        height: 2,924px;
+        gap: 60px;
+        opacity: 0px;
+
+    }
+
+
+    .latest-work h2{
+        width: 191px;
+        height: 42px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Epilogue;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+
+    }
+
+    .work-container{
+        display: flex;
+        width: 375px;
+        height: 2,742px;
+        gap: 60px;
+        opacity: 0px;
+
+    }
+     .work-item img {
+        width: 315px;
+        height: 325px;
+        gap: 60px;
+     }
+    .clients-section{
+        display: flex;
+        flex-direction: column;
+        width: 315px;
+        gap: 60px;
+        opacity: 0px;
+        
+    }
+    .clients-section h2{
+        left: 80px;
+        position: relative;
+    }
+
+    .client-cards{
+        display: flex;
+        flex-direction: column;
+        width: 315px;
+        flex-wrap: wrap;
+        gap: 60px;
+
+    }
+
+
+    .card{
+        display: flex;
+        width: 315px;
+        height:400px;
+        gap: 10px;
+        border: 1.5px 0px 0px 0px;
+        opacity: 0px;
+        left: 50px;
+        position: relative;
+        
+    }
+
+    .card p{
+        font-size: 30px;
+        font-weight: 100;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+     
+    }
+
+    .contact-section{
+        width: 315px;
+        gap: 80px;
+        opacity: 0px;
+        padding: 0 0 0 6.5rem;
+        align-content:flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        left: auto;
+        position: relative;
+        
+    }
+
+   .contact-right{
+       display: flex;
+       flex-direction: column;
+       width: 315px;
+       gap: 40px;
+       opacity: 0px;
+
+    }
+
+    .contact-left h2{
+        width: 315px;
+        height: 84px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Epilogue;
+        font-size: 32px;
+        font-weight: 600;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+
+}
